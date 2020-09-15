@@ -1,0 +1,1803 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <title>DECODECO</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+  <!-- UIkit CSS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit@3.2.3/dist/css/uikit.min.css" />
+  <!-- UIkit JS -->
+  <script src="https://cdn.jsdelivr.net/npm/uikit@3.2.3/dist/js/uikit.min.js"></script>
+</head>
+<body>
+  
+  <div class="container">
+    <header>
+      <div class="header-inner">
+        <div class="top-banner">
+          <div class="top-banner-inner">
+            <a href="#a"><img src="images/top-banner-01.png" alt=""></a>
+            <a href="#a"><img src="images/top-banner-02.png" alt=""></a>
+            <button class="tb-close"></button>
+          </div> 
+        </div>
+        <div class="gnb">
+          <div class="gnb-inner clear">
+            <div class="gnb-left">
+              <a href="">홈</a>
+              <a href="">즐겨찾기</a>
+            </div>
+            <div class="gnb-right">
+              <a href=""><img src="images/icon-01.png" alt=""><span>0</span></a>
+              <a href="">로그인</a>
+              <a class="join" href="">회원가입</a>
+              <a href="">마이페이지</a>
+              <a href="">고객센터</a>
+            </div>
+          </div>
+        </div>
+        <div class="logo">
+          <div class="logo-inner">
+            <h1><a href=""><img src="images/logo.png" alt="decodeo home deco shoppingmall"></a></h1>
+            <div class="search">
+              <input type="search" placeholder="크리스마스 소품">
+              <button></button>
+            </div>
+          </div>
+        </div>
+      </div> 
+      <nav>
+        <div class="menu-inner">
+          <ul class="clear">
+            <li class="total">
+              <img src="images/icon-03.png" alt="">전체 카테고리
+            </li>
+            <li><a href="#a"><span>조명</span></a>
+              <ul class="sub-menu">
+                <li><a href="#a">펜던트 조명</a></li>
+                <li><a href="#a">플로어 조명</a></li>
+                <li><a href="#a">테이블 조명</a></li>
+                <li><a href="#a">무드등/볼조명</a></li>
+                <li><a href="#a">데스크 스탠드</a></li>
+                <li><a href="#a">메세지 조명</a></li>
+                <li><a href="#a">벽조명</a></li>
+                <li><a href="#a">레일 조명</a></li>
+                <li><a href="#a">천장 조명</a></li>
+                <li><a href="#a">크리스마스 조명</a></li>
+              </ul>
+            </li>
+            <li><a href="#a"><span>시계</span></a>
+            	<ul class="sub-menu">
+                <li><a href="#a">벽시계</a></li>
+                <li><a href="#a">탁상시계</a></li>
+                <li><a href="#a">알람시계</a></li>
+                <li><a href="#a">양면시계</a></li>
+                <li><a href="#a">그래픽시계</a></li>
+                <li><a href="#a">타이머/스톱워치</a></li>
+              </ul>
+            </li>
+            <li><a href="#a"><span>그림/액자</span></a>
+            	<ul class="sub-menu">
+                <li><a href="#a">벽걸이 액자</a></li>
+                <li><a href="#a">미니 액자</a></li>
+                <li><a href="#a">심플 액자</a></li>
+                <li><a href="#a">로맨틱 액자</a></li>
+                <li><a href="#a">클래식 액자</a></li>
+                <li><a href="#a">빈티지 액자</a></li>
+                <li><a href="#a">수틀 액자</a></li>
+                <li><a href="#a">주문제작/핸드메이드</a></li>
+              </ul>
+            </li>
+            <li><a href="#a"><span>식물</span></a>
+            	<ul class="sub-menu">
+                <li><a href="#a">공기정화식물</a></li>
+                <li><a href="#a">수경재배식물</a></li>
+                <li><a href="#a">미니식물/테라리움</a></li>
+                <li><a href="#a">중대형식물</a></li>
+                <li><a href="#a">가드닝</a></li>
+                <li><a href="#a">화분</a></li>
+              </ul>
+            </li>
+            <li><a href="#a"><span>조화/화병</span></a>
+            	<ul class="sub-menu">
+                <li><a href="#a">조화</a></li>
+                <li><a href="#a">조화 나무</a></li>
+                <li><a href="#a">화병</a></li>
+                <li><a href="#a">조화/화병 세트</a></li>
+                <li><a href="#a">리스/가랜드</a></li>
+                <li><a href="#a">부케/화관/웨딩소품</a></li>
+              </ul>
+            </li>
+            <li><a href="#a"><span>디퓨저</span></a>
+            	<ul class="sub-menu">
+                <li><a href="#a">디퓨저</a></li>
+                <li><a href="#a">방향제/스프레이</a></li>
+                <li><a href="#a">석고방향제</a></li>
+                <li><a href="#a">리필액/리드스틱</a></li>
+              </ul>
+            </li>
+            <li><a href="#a"><span>홈파티</span></a>
+            	<ul class="sub-menu">
+                <li><a href="#a">DIY/데코소품</a></li>
+                <li><a href="#a">DIY/미니어처</a></li>
+                <li><a href="#a">패브릭 소품</a></li>
+                <li><a href="#a">보드/타공판</a></li>
+                <li><a href="#a">워터볼/오르골</a></li>
+                <li><a href="#a">나무 소품</a></li>
+                <li><a href="#a">이니셜 소품</a></li>
+                <li><a href="#a">저금통</a></li>
+                <li><a href="#a">헌팅트로피</a></li>
+                <li><a href="#a">도어벨</a></li>
+                <li><a href="#a">끈/집게</a></li>
+                <li><a href="#a">스위치 커버</a></li>
+              </ul>
+            </li>
+            <li><a href="#a"><span>크리스마스</span></a>
+            	<ul class="sub-menu">
+                <li><a href="#a">조명</a></li>
+                <li><a href="#a">트리/오너먼트</a></li>
+                <li><a href="#a">조화/리스</a></li>
+                <li><a href="#a">데코스티커</a></li>
+                <li><a href="#a">워터볼/오르골</a></li>
+                <li><a href="#a">모빌/가랜드/홈파티</a></li>
+                <li><a href="#a">캔들/캔들홀더/디퓨저</a></li>
+                <li><a href="#a">크리스마스소품</a></li>
+              </ul>
+            </li>
+            <li><a href="#a"><span class="blue">SALE</span></a></li>
+            <li><a href="#a"><span>대량구매</span></a></li>
+            <li><a href="#a"><span class="red">EVENT</span></a></li>
+          </ul>
+          <div class="mega-menu">
+          	<ul>
+          		<li><a href="#a">조명</a>
+								<ul class="mega-sub">
+									<li><a href="#a">펜던트 조명</a></li>
+									<li><a href="#a">플로어 조명</a></li>
+									<li><a href="#a">테이블 조명</a></li>
+									<li><a href="#a">무드등/볼조명</a></li>
+									<li><a href="#a">데스크 스탠드</a></li>
+									<li><a href="#a">메세지 조명</a></li>
+									<li><a href="#a">벽조명</a></li>
+									<li><a href="#a">레일 조명</a></li>
+									<li><a href="#a">천장 조명</a></li>
+									<li><a href="#a">크리스마스 조명</a></li>
+								</ul>
+							</li>
+							<li><a href="#a">시계</a>
+								<ul class="mega-sub">
+									<li><a href="#a">벽시계</a></li>
+									<li><a href="#a">탁상시계</a></li>
+									<li><a href="#a">알람시계</a></li>
+									<li><a href="#a">양면시계</a></li>
+									<li><a href="#a">그래픽시계</a></li>
+									<li><a href="#a">타이머/스톱워치</a></li>
+								</ul>
+							</li>
+							<li><a href="#a">그림/액자</a>
+								<ul class="mega-sub">
+									<li><a href="#a">벽걸이 액자</a></li>
+									<li><a href="#a">미니 액자</a></li>
+									<li><a href="#a">심플 액자</a></li>
+									<li><a href="#a">로맨틱 액자</a></li>
+									<li><a href="#a">클래식 액자</a></li>
+									<li><a href="#a">빈티지 액자</a></li>
+									<li><a href="#a">수틀 액자</a></li>
+									<li><a href="#a">주문제작/핸드메이드</a></li>
+								</ul>
+							</li>
+							<li><a href="#a">식물</a>
+								<ul class="mega-sub">
+									<li><a href="#a">공기정화식물</a></li>
+									<li><a href="#a">수경재배식물</a></li>
+									<li><a href="#a">미니식물/테라리움</a></li>
+									<li><a href="#a">중대형식물</a></li>
+									<li><a href="#a">가드닝</a></li>
+									<li><a href="#a">화분</a></li>
+								</ul>
+							</li>
+							<li><a href="#a">조화/화병</a>
+								<ul class="mega-sub">
+									<li><a href="#a">조화</a></li>
+									<li><a href="#a">조화 나무</a></li>
+									<li><a href="#a">화병</a></li>
+									<li><a href="#a">조화/화병 세트</a></li>
+									<li><a href="#a">리스/가랜드</a></li>
+									<li><a href="#a">부케/화관/웨딩소품</a></li>
+								</ul>
+							</li>
+							<li><a href="#a">디퓨저</a>
+								<ul class="mega-sub">
+									<li><a href="#a">디퓨저</a></li>
+									<li><a href="#a">방향제/스프레이</a></li>
+									<li><a href="#a">석고방향제</a></li>
+									<li><a href="#a">리필액/리드스틱</a></li>
+								</ul>
+							</li>
+							<li><a href="#a">홈파티</a>
+								<ul class="mega-sub">
+									<li><a href="#a">DIY/데코소품</a></li>
+									<li><a href="#a">DIY/미니어처</a></li>
+									<li><a href="#a">패브릭 소품</a></li>
+									<li><a href="#a">보드/타공판</a></li>
+									<li><a href="#a">워터볼/오르골</a></li>
+									<li><a href="#a">나무 소품</a></li>
+									<li><a href="#a">이니셜 소품</a></li>
+									<li><a href="#a">저금통</a></li>
+									<li><a href="#a">헌팅트로피</a></li>
+									<li><a href="#a">도어벨</a></li>
+									<li><a href="#a">끈/집게</a></li>
+									<li><a href="#a">스위치 커버</a></li>
+								</ul>
+							</li>
+							<li><a href="#a">크리스마스</a>
+								<ul class="mega-sub">
+									<li><a href="#a">조명</a></li>
+									<li><a href="#a">트리/오너먼트</a></li>
+									<li><a href="#a">조화/리스</a></li>
+									<li><a href="#a">데코스티커</a></li>
+									<li><a href="#a">워터볼/오르골</a></li>
+									<li><a href="#a">모빌/가랜드/홈파티</a></li>
+									<li><a href="#a">캔들/캔들홀더/디퓨저</a></li>
+									<li><a href="#a">크리스마스소품</a></li>
+								</ul>
+							</li>
+          	</ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+<!-- header -->
+    <main>
+      <section class="main-slide">
+<!-- slideshow -->
+        <div class="deco-slide" uk-slideshow="animation: slide; autoplay: true; autoplay-interval: 5000">
+          <div class="uk-position-relative uk-visible-toggle uk-light" tabindex="-1">
+            <ul class="deco-items uk-slideshow-items">
+              <li>
+                <a href="#a"><img src="images/slide-01.png" alt="" uk-cover></a>
+              </li>
+              <li>
+                <a href="#a"><img src="images/slide-02.png" alt="" uk-cover></a>
+              </li>
+              <li>
+                <a href="#a"><img src="images/slide-03.png" alt="" uk-cover></a>
+              </li>
+            </ul>
+            <a class="deco-prev uk-position-center-left uk-position-small uk-hidden-hover" href="#" uk-slidenav-previous uk-slideshow-item="previous"></a>
+            <a class="deco-next uk-position-center-right uk-position-small uk-hidden-hover" href="#" uk-slidenav-next uk-slideshow-item="next"></a>
+            <ul class="deco-slidebtn uk-slideshow-nav uk-dotnav uk-flex-center uk-margin"></ul>
+          </div>
+        </div> 
+<!-- //slideshow -->
+      </section>
+<!-- //main-slide -->
+      <section class="new">
+        <h2 class="title">NEW ITEM</h2> 
+        <div class="new-inner">
+				<!-- //new-slider -->
+					<div class="new-slider uk-position-relative" uk-slider="sets:true">
+						<div class="new-wrap">
+							<div class="uk-slider-container uk-light">
+								<ul class="new-slider-items uk-slider-items uk-child-width-1-2 uk-child-width-1-3@s uk-child-width-1-4@m">
+									<li class="new-info">
+										<a href="#a">
+											<img src="images/new-01.png" alt="">
+											<em class="cart icon01">
+												<button><img src="images/pro-ico-01.png" alt="장바구니"></button>
+												<button><img src="images/pro-ico-02.png" alt="찜하기"></button>
+											</em>
+										</a>
+										<div>
+											<a href="#a">
+												플로우 스프링 장스탠드
+											</a>
+											<p>
+33,800원<small>
+53,800원</small></p>
+										</div>
+									</li>
+									<li class="new-info">
+										<a href="#a">
+											<img src="images/new-02.png" alt="">
+											<em class="cart icon01">
+												<button><img src="images/pro-ico-01.png" alt="장바구니"></button>
+												<button><img src="images/pro-ico-02.png" alt="찜하기"></button>
+											</em>
+										</a>
+										<div>
+											<a href="#a">
+												우드함 1등 펜던트 조명
+											</a>
+											<p>42,740원<small>53,430원</small></p>
+										</div>
+									</li>
+									<li class="new-info">
+										<a href="#a">
+											<img src="images/new-03.png" alt="">
+											<em class="cart icon01">
+												<button><img src="images/pro-ico-01.png" alt="장바구니"></button>
+												<button><img src="images/pro-ico-02.png" alt="찜하기"></button>
+											</em>
+										</a>
+										<div>
+											<a href="#a">
+												인테리어 데코 전구
+											</a>
+											<p>7,200원<small>14,500원</small></p>
+										</div>
+									</li>
+									<li class="new-info">
+										<a href="#a">
+											<img src="images/new-04.png" alt="">
+											<em class="cart icon01">
+												<button><img src="images/pro-ico-01.png" alt="장바구니"></button>
+												<button><img src="images/pro-ico-02.png" alt="찜하기"></button>
+											</em>
+										</a>
+										<div>
+											<a href="#a">
+												어반 미니 크리스마스 트리 세트
+											</a>
+											<p>10,200원<small>12,000원</small></p>
+										</div>
+									</li>
+									<li class="new-info">
+										<a href="#a">
+											<img src="images/new-05.png" alt="">
+											<em class="cart icon01">
+												<button><img src="images/pro-ico-01.png" alt="장바구니"></button>
+												<button><img src="images/pro-ico-02.png" alt="찜하기"></button>
+											</em>
+										</a>
+										<div>
+											<a href="#a">
+												크리스마스 트리 스탠드 캔들워머
+											</a>
+											<p>21,160원<small>24,900원</small></p>
+										</div>
+									</li>
+									<li class="new-info">
+										<a href="#a">
+											<img src="images/new-06.png" alt="">
+											<em class="cart icon01">
+												<button><img src="images/pro-ico-01.png" alt="장바구니"></button>
+												<button><img src="images/pro-ico-02.png" alt="찜하기"></button>
+											</em>
+										</a>
+										<div>
+											<a href="#a">
+												크리스마스 장식소품 - 아기사슴
+											</a>
+											<p>6,800원<small>8,000원</small></p>
+										</div>
+									</li>
+									<li class="new-info">
+										<a href="#a">
+											<img src="images/new-07.png" alt="">
+											<em class="cart icon01">
+												<button><img src="images/pro-ico-01.png" alt="장바구니"></button>
+												<button><img src="images/pro-ico-02.png" alt="찜하기"></button>
+											</em>
+										</a>
+										<div>
+											<a href="#a">
+												쁘띠 종달새
+											</a>
+											<p>4,160원<small>4,900원</small></p>
+										</div>
+									</li>
+									<li class="new-info">
+										<a href="#a">
+											<img src="images/new-08.png" alt="">
+											<em class="cart icon01">
+												<button><img src="images/pro-ico-01.png" alt="장바구니"></button>
+												<button><img src="images/pro-ico-02.png" alt="찜하기"></button>
+											</em>
+										</a>
+										<div>
+											<a href="#a">
+												크리스마스 전구틸란
+											</a>
+											<p>21,670원<small>25,500원</small></p>
+										</div>
+									</li>
+								</ul>
+							</div>
+							<a class="new-prev uk-position-center-left uk-position-small" href="#" uk-slidenav-previous uk-slider-item="previous"></a>
+							<a class="new-next uk-position-center-right uk-position-small" href="#" uk-slidenav-next uk-slider-item="next"></a>
+						</div>
+					</div>
+				<!-- //new-slider -->
+        </div> 
+      </section>
+<!-- //new-item -->
+      <section class="best">
+        <h2 class="title">CATEGORY BEST ITEM</h2>
+        <div class="best-inner">
+          <input type="radio" name="best" id="best1" checked>
+          <input type="radio" name="best" id="best2">
+          <input type="radio" name="best" id="best3">
+          <input type="radio" name="best" id="best4">
+          <input type="radio" name="best" id="best5">
+          <input type="radio" name="best" id="best6">
+          <input type="radio" name="best" id="best7">
+          <input type="radio" name="best" id="best8">
+          <div class="best-btn clear">
+            <label for="best1">조명</label>
+            <label for="best2">시계</label>
+            <label for="best3">그림/액자</label>
+            <label for="best4">식물</label>
+            <label for="best5">조화/화병</label>
+            <label for="best6">디퓨저</label>
+            <label for="best7">홈파티</label>
+            <label for="best8">크리스마스</label>
+          </div>
+          <div class="best-container">
+          	<div class="best-box best1">
+							<ul class="best-items clear">
+								<li>
+									<a href="#a">
+										<span>
+											<img src="images/best-light-01.png" alt="">
+										</span>
+										<p>
+											홈 디자인 카페 인테리어 조명 
+											<small>72,000원</small><b>90,000원</b>
+										</p>
+									</a>
+									<em>
+										<a href="#a"><img src="images/pro-ico-01.png" alt="장바구니"></a>
+										<a href="#a"><img src="images/pro-ico-02.png" alt="찜하기"></a>
+									</em>
+								</li>
+								<li>
+									<a href="#a">
+										<span>
+											<img src="images/best-light-02.png" alt="">
+										</span>
+										<p>
+											LED 눈꽃전구 
+											<small>8,320원</small><b>10,400원</b>
+										</p>
+									</a>
+									<em>
+										<a href="#a"><img src="images/pro-ico-01.png" alt="장바구니"></a>
+										<a href="#a"><img src="images/pro-ico-02.png" alt="찜하기"></a>
+									</em>
+								</li>
+								<li>
+									<a href="#a">
+										<span>
+											<img src="images/best-light-03.png" alt="">
+										</span>
+										<p>
+											led 펜던트 식탁 조명 
+											<small>199,990원</small><b>186,800원</b>
+										</p>
+									</a>
+									<em>
+										<a href="#a"><img src="images/pro-ico-01.png" alt="장바구니"></a>
+										<a href="#a"><img src="images/pro-ico-02.png" alt="찜하기"></a>
+									</em>
+								</li>
+								<li>
+									<a href="#a">
+										<span>
+											<img src="images/best-light-04.png" alt="">
+										</span>
+										<p>
+											로제 5등 LED 펜던트 식탁 주방 조명
+											<small>230,000원</small><b>196,800원</b>
+										</p>
+									</a>
+									<em>
+										<a href="#a"><img src="images/pro-ico-01.png" alt="장바구니"></a>
+										<a href="#a"><img src="images/pro-ico-02.png" alt="찜하기"></a>
+									</em>
+								</li>
+							</ul>
+							<ul class="best-items clear">
+								<li>
+									<a href="#a">
+										<span>
+											<img src="images/best-light-05.png" alt="">
+										</span>
+										<p>
+											2m 와인병 코르크 조명 10p
+											<small>32,000원</small><b>29,000원</b>
+										</p>
+									</a>
+									<em>
+										<a href="#a"><img src="images/pro-ico-01.png" alt="장바구니"></a>
+										<a href="#a"><img src="images/pro-ico-02.png" alt="찜하기"></a>
+									</em>
+								</li>
+								<li>
+									<a href="#a">
+										<span>
+											<img src="images/best-light-06.png" alt="">
+										</span>
+										<p>
+											LED스탠드 공부용 탁상용 책상용 스탠드
+											<small>20,300원</small><b>17,500원</b>
+										</p>
+									</a>
+									<em>
+										<a href="#a"><img src="images/pro-ico-01.png" alt="장바구니"></a>
+										<a href="#a"><img src="images/pro-ico-02.png" alt="찜하기"></a>
+									</em>
+								</li>
+								<li>
+									<a href="#a">
+										<span>
+											<img src="images/best-light-07.png" alt="">
+										</span>
+										<p>
+											렌토 1등 펜던트 조명 
+											<small>109,590원</small><b>87,670원</b>
+										</p>
+									</a>
+									<em>
+										<a href="#a"><img src="images/pro-ico-01.png" alt="장바구니"></a>
+										<a href="#a"><img src="images/pro-ico-02.png" alt="찜하기"></a>
+									</em>
+								</li>
+								<li>
+									<a href="#a">
+										<span>
+											<img src="images/best-light-08.png" alt="">
+										</span>
+										<p>
+											영국 근위병 스탠드 
+											<small>198,000원</small><b>158,400원</b>
+										</p>
+									</a>
+									<em>
+										<a href="#a"><img src="images/pro-ico-01.png" alt="장바구니"></a>
+										<a href="#a"><img src="images/pro-ico-02.png" alt="찜하기"></a>
+									</em>
+								</li>
+							</ul>
+						</div>
+						<div class="best-box best2">
+							<ul class="best-items clear">
+								<li>
+									<a href="#a">
+										<span>
+											<img src="images/best-watch-01.png" alt="">
+										</span>
+										<p>
+											콧수염 벽시계
+											<small>35,000원</small><b>28,000원</b>
+										</p>
+									</a>
+									<em>
+										<a href="#a"><img src="images/pro-ico-01.png" alt="장바구니"></a>
+										<a href="#a"><img src="images/pro-ico-02.png" alt="찜하기"></a>
+									</em>
+								</li>
+								<li>
+									<a href="#a">
+										<span>
+											<img src="images/best-watch-02.png" alt="">
+										</span>
+										<p>
+											몽글잎새 월넛 무소음 인테리어 벽시계
+											<small>29,000원</small><b>17,400원</b>
+										</p>
+									</a>
+									<em>
+										<a href="#a"><img src="images/pro-ico-01.png" alt="장바구니"></a>
+										<a href="#a"><img src="images/pro-ico-02.png" alt="찜하기"></a>
+									</em>
+								</li>
+								<li>
+									<a href="#a">
+										<span>
+											<img src="images/best-watch-03.png" alt="">
+										</span>
+										<p>
+											타임데코 화이트 코너벽시계 
+											<small>99,000원</small><b>79,200원</b>
+										</p>
+									</a>
+									<em>
+										<a href="#a"><img src="images/pro-ico-01.png" alt="장바구니"></a>
+										<a href="#a"><img src="images/pro-ico-02.png" alt="찜하기"></a>
+									</em>
+								</li>
+								<li>
+									<a href="#a">
+										<span>
+											<img src="images/best-watch-04.png" alt="">
+										</span>
+										<p>
+											당신과 함께하는 세상_그래픽시계 
+											<small>59,000원</small><b>47,200원</b>
+										</p>
+									</a>
+									<em>
+										<a href="#a"><img src="images/pro-ico-01.png" alt="장바구니"></a>
+										<a href="#a"><img src="images/pro-ico-02.png" alt="찜하기"></a>
+									</em>
+								</li>
+							</ul>
+							<ul class="best-items clear">
+								<li>
+									<a href="#a">
+										<span>
+											<img src="images/best-watch-05.png" alt="">
+										</span>
+										<p>
+											메리 미 러브미_그래픽시계 
+											<small>37,000원</small><b>29,600원</b>
+										</p>
+									</a>
+									<em>
+										<a href="#a"><img src="images/pro-ico-01.png" alt="장바구니"></a>
+										<a href="#a"><img src="images/pro-ico-02.png" alt="찜하기"></a>
+									</em>
+								</li>
+								<li>
+									<a href="#a">
+										<span>
+											<img src="images/best-watch-06.png" alt="">
+										</span>
+										<p>
+											스탠드 시계와 고양이_그래픽시계 
+											<small>49,000원</small><b>39,200원</b>
+										</p>
+									</a>
+									<em>
+										<a href="#a"><img src="images/pro-ico-01.png" alt="장바구니"></a>
+										<a href="#a"><img src="images/pro-ico-02.png" alt="찜하기"></a>
+									</em>
+								</li>
+								<li>
+									<a href="#a">
+										<span>
+											<img src="images/best-watch-07.png" alt="">
+										</span>
+										<p>
+											올드타운 원형 탁상시계 
+											<small>45,200원</small><b>36,160원</b>
+										</p>
+									</a>
+									<em>
+										<a href="#a"><img src="images/pro-ico-01.png" alt="장바구니"></a>
+										<a href="#a"><img src="images/pro-ico-02.png" alt="찜하기"></a>
+									</em>
+								</li>
+								<li>
+									<a href="#a">
+										<span>
+											<img src="images/best-watch-08.png" alt="">
+										</span>
+										<p>
+											자전거 플립시계 
+											<small>81,500원</small><b>68,000원</b>
+										</p>
+									</a>
+									<em>
+										<a href="#a"><img src="images/pro-ico-01.png" alt="장바구니"></a>
+										<a href="#a"><img src="images/pro-ico-02.png" alt="찜하기"></a>
+									</em>
+								</li>
+							</ul>
+						</div>
+						<div class="best-box best3">
+							<ul class="best-items clear">
+								<li>
+									<a href="#a">
+										<span>
+											<img src="images/best-pic-01.png" alt="">
+										</span>
+										<p>
+											숲속 동물 음악회 캔버스액자 
+											<small>32,000원</small><b>30,000원</b>
+										</p>
+									</a>
+									<em>
+										<a href="#a"><img src="images/pro-ico-01.png" alt="장바구니"></a>
+										<a href="#a"><img src="images/pro-ico-02.png" alt="찜하기"></a>
+									</em>
+								</li>
+								<li>
+									<a href="#a">
+										<span>
+											<img src="images/best-pic-02.png" alt="">
+										</span>
+										<p>
+											메리 크리스마스 트리 인테리어액자 
+											<small>6,900원</small><b>6,210원</b>
+										</p>
+									</a>
+									<em>
+										<a href="#a"><img src="images/pro-ico-01.png" alt="장바구니"></a>
+										<a href="#a"><img src="images/pro-ico-02.png" alt="찜하기"></a>
+									</em>
+								</li>
+								<li>
+									<a href="#a">
+										<span>
+											<img src="images/best-pic-03.png" alt="">
+										</span>
+										<p>
+											크리스마스 인테리어액자 
+											<small>6,900원</small><b>6,210원</b>
+										</p>
+									</a>
+									<em>
+										<a href="#a"><img src="images/pro-ico-01.png" alt="장바구니"></a>
+										<a href="#a"><img src="images/pro-ico-02.png" alt="찜하기"></a>
+									</em>
+								</li>
+								<li>
+									<a href="#a">
+										<span>
+											<img src="images/best-pic-04.png" alt="">
+										</span>
+										<p>
+											예쁜 벽걸이액자 
+											<small>20,900원</small><b>15,900원</b>
+										</p>
+									</a>
+									<em>
+										<a href="#a"><img src="images/pro-ico-01.png" alt="장바구니"></a>
+										<a href="#a"><img src="images/pro-ico-02.png" alt="찜하기"></a>
+									</em>
+								</li>
+							</ul>
+							<ul class="best-items clear">
+								<li>
+									<a href="#a">
+										<span>
+											<img src="images/best-pic-05.png" alt="">
+										</span>
+										<p>
+											북유럽 감성 아트포스터 
+											<small>3,900원</small><b>3,510원</b>
+										</p>
+									</a>
+									<em>
+										<a href="#a"><img src="images/pro-ico-01.png" alt="장바구니"></a>
+										<a href="#a"><img src="images/pro-ico-02.png" alt="찜하기"></a>
+									</em>
+								</li>
+								<li>
+									<a href="#a">
+										<span>
+											<img src="images/best-pic-06.png" alt="">
+										</span>
+										<p>
+											크리스마스 인테리어액자 
+											<small>6,900원</small><b>6,210원</b>
+										</p>
+									</a>
+									<em>
+										<a href="#a"><img src="images/pro-ico-01.png" alt="장바구니"></a>
+										<a href="#a"><img src="images/pro-ico-02.png" alt="찜하기"></a>
+									</em>
+								</li>
+								<li>
+									<a href="#a">
+										<span>
+											<img src="images/best-pic-07.png" alt="">
+										</span>
+										<p>
+											갈대 그림 가을 풍경 인테리어 3in1
+											<small>28,000원</small><b>26,000원</b>
+										</p>
+									</a>
+									<em>
+										<a href="#a"><img src="images/pro-ico-01.png" alt="장바구니"></a>
+										<a href="#a"><img src="images/pro-ico-02.png" alt="찜하기"></a>
+									</em>
+								</li>
+								<li>
+									<a href="#a">
+										<span>
+											<img src="images/best-pic-08.png" alt="">
+										</span>
+										<p>
+											갈대 그림 가을 풍경 인테리어 
+											<small>10,590원</small><b>8,450원</b>
+										</p>
+									</a>
+									<em>
+										<a href="#a"><img src="images/pro-ico-01.png" alt="장바구니"></a>
+										<a href="#a"><img src="images/pro-ico-02.png" alt="찜하기"></a>
+									</em>
+								</li>
+							</ul>
+						</div>
+						<div class="best-box best4">
+							<ul class="best-items clear">
+								<li>
+									<a href="#a">
+										<span>
+											<img src="images/best-green-01.png" alt="">
+										</span>
+										<p>
+											그 여자의 정원
+											<small>12,000원</small><b>9,600원</b>
+										</p>
+									</a>
+									<em>
+										<a href="#a"><img src="images/pro-ico-01.png" alt="장바구니"></a>
+										<a href="#a"><img src="images/pro-ico-02.png" alt="찜하기"></a>
+									</em>
+								</li>
+								<li>
+									<a href="#a">
+										<span>
+											<img src="images/best-green-02.png" alt="">
+										</span>
+										<p>
+											축복해요 식물화분 
+											<small>14,900원</small><b>11,920원</b>
+										</p>
+									</a>
+									<em>
+										<a href="#a"><img src="images/pro-ico-01.png" alt="장바구니"></a>
+										<a href="#a"><img src="images/pro-ico-02.png" alt="찜하기"></a>
+									</em>
+								</li>
+								<li>
+									<a href="#a">
+										<span>
+											<img src="images/best-green-03.png" alt="">
+										</span>
+										<p>
+											유리볼화분 
+											<small>7,000원</small><b>5,950원</b>
+										</p>
+									</a>
+									<em>
+										<a href="#a"><img src="images/pro-ico-01.png" alt="장바구니"></a>
+										<a href="#a"><img src="images/pro-ico-02.png" alt="찜하기"></a>
+									</em>
+								</li>
+								<li>
+									<a href="#a">
+										<span>
+											<img src="images/best-green-04.png" alt="">
+										</span>
+										<p>
+											플리츠 둥근 도자기 화분 (소)
+											<small>12,500원</small><b>11,500원</b>
+										</p>
+									</a>
+									<em>
+										<a href="#a"><img src="images/pro-ico-01.png" alt="장바구니"></a>
+										<a href="#a"><img src="images/pro-ico-02.png" alt="찜하기"></a>
+									</em>
+								</li>
+							</ul>
+							<ul class="best-items clear">
+								<li>
+									<a href="#a">
+										<span>
+											<img src="images/best-green-05.png" alt="">
+										</span>
+										<p>
+											가죽 끈 리본 인테리어 화분
+											<small>5,600원</small><b>4,100원</b>
+										</p>
+									</a>
+									<em>
+										<a href="#a"><img src="images/pro-ico-01.png" alt="장바구니"></a>
+										<a href="#a"><img src="images/pro-ico-02.png" alt="찜하기"></a>
+									</em>
+								</li>
+								<li>
+									<a href="#a">
+										<span>
+											<img src="images/best-green-06.png" alt="">
+										</span>
+										<p>
+											투톤 인테리어 화분 
+											<small>23,590원</small><b>21,400원</b>
+										</p>
+									</a>
+									<em>
+										<a href="#a"><img src="images/pro-ico-01.png" alt="장바구니"></a>
+										<a href="#a"><img src="images/pro-ico-02.png" alt="찜하기"></a>
+									</em>
+								</li>
+								<li>
+									<a href="#a">
+										<span>
+											<img src="images/best-green-07.png" alt="">
+										</span>
+										<p>
+											수경재배 식물 
+											<small>6,500원</small><b>5,520원</b>
+										</p>
+									</a>
+									<em>
+										<a href="#a"><img src="images/pro-ico-01.png" alt="장바구니"></a>
+										<a href="#a"><img src="images/pro-ico-02.png" alt="찜하기"></a>
+									</em>
+								</li>
+								<li>
+									<a href="#a">
+										<span>
+											<img src="images/best-green-08.png" alt="">
+										</span>
+										<p>
+											미니도자기화분 
+											<small>6,200원</small><b>5,270원</b>
+										</p>
+									</a>
+									<em>
+										<a href="#a"><img src="images/pro-ico-01.png" alt="장바구니"></a>
+										<a href="#a"><img src="images/pro-ico-02.png" alt="찜하기"></a>
+									</em>
+								</li>
+							</ul>
+						</div>
+						<div class="best-box best5">
+							<ul class="best-items clear">
+								<li>
+									<a href="#a">
+										<span>
+											<img src="images/best-flower-01.png" alt="">
+										</span>
+										<p>
+											벽트리 눈꽃전구가랜드 
+											<small>19,500원</small><b>15,600원</b>
+										</p>
+									</a>
+									<em>
+										<a href="#a"><img src="images/pro-ico-01.png" alt="장바구니"></a>
+										<a href="#a"><img src="images/pro-ico-02.png" alt="찜하기"></a>
+									</em>
+								</li>
+								<li>
+									<a href="#a">
+										<span>
+											<img src="images/best-flower-02.png" alt="">
+										</span>
+										<p>
+											Holy골드 목화가랜드 
+											<small>28,700원</small><b>19,800원</b>
+										</p>
+									</a>
+									<em>
+										<a href="#a"><img src="images/pro-ico-01.png" alt="장바구니"></a>
+										<a href="#a"><img src="images/pro-ico-02.png" alt="찜하기"></a>
+									</em>
+								</li>
+								<li>
+									<a href="#a">
+										<span>
+											<img src="images/best-flower-03.png" alt="">
+										</span>
+										<p>
+											윈터 무광 black pot 센터피스
+											<small>35,000원</small><b>28,000원</b>
+										</p>
+									</a>
+									<em>
+										<a href="#a"><img src="images/pro-ico-01.png" alt="장바구니"></a>
+										<a href="#a"><img src="images/pro-ico-02.png" alt="찜하기"></a>
+									</em>
+								</li>
+								<li>
+									<a href="#a">
+										<span>
+											<img src="images/best-flower-04.png" alt="">
+										</span>
+										<p>
+											센터피스 - 화이트로즈 
+											<small>57,500원</small><b>46,000원</b>
+										</p>
+									</a>
+									<em>
+										<a href="#a"><img src="images/pro-ico-01.png" alt="장바구니"></a>
+										<a href="#a"><img src="images/pro-ico-02.png" alt="찜하기"></a>
+									</em>
+								</li>
+							</ul>
+							<ul class="best-items clear">
+								<li>
+									<a href="#a">
+										<span>
+											<img src="images/best-flower-05.png" alt="">
+										</span>
+										<p>
+											장미 조화꽃 6개입 (레드&화이트) 
+											<small>5,500원</small><b>4,000원</b>
+										</p>
+									</a>
+									<em>
+										<a href="#a"><img src="images/pro-ico-01.png" alt="장바구니"></a>
+										<a href="#a"><img src="images/pro-ico-02.png" alt="찜하기"></a>
+									</em>
+								</li>
+								<li>
+									<a href="#a">
+										<span>
+											<img src="images/best-flower-06.png" alt="">
+										</span>
+										<p>
+											실크플라워 조화 가랜드 벽장 
+											<small>59,000원</small><b>50,150원</b>
+										</p>
+									</a>
+									<em>
+										<a href="#a"><img src="images/pro-ico-01.png" alt="장바구니"></a>
+										<a href="#a"><img src="images/pro-ico-02.png" alt="찜하기"></a>
+									</em>
+								</li>
+								<li>
+									<a href="#a">
+										<span>
+											<img src="images/best-flower-07.png" alt="">
+										</span>
+										<p>
+											엔젤 투명앵두 LED전구가랜드 
+											<small>22,400원</small><b>17,920원</b>
+										</p>
+									</a>
+									<em>
+										<a href="#a"><img src="images/pro-ico-01.png" alt="장바구니"></a>
+										<a href="#a"><img src="images/pro-ico-02.png" alt="찜하기"></a>
+									</em>
+								</li>
+								<li>
+									<a href="#a">
+										<span>
+											<img src="images/best-flower-08.png" alt="">
+										</span>
+										<p>
+											목화 자작나무 별모양리스 전구set 
+											<small>22,800원</small><b>18,240원</b>
+										</p>
+									</a>
+									<em>
+										<a href="#a"><img src="images/pro-ico-01.png" alt="장바구니"></a>
+										<a href="#a"><img src="images/pro-ico-02.png" alt="찜하기"></a>
+									</em>
+								</li>
+							</ul>
+						</div>
+						<div class="best-box best6">
+							<ul class="best-items clear">
+								<li>
+									<a href="#a">
+										<span>
+											<img src="images/best-scent-01.png" alt="">
+										</span>
+										<p>
+											플라워 프레그런스 디퓨져
+											<small>22,000원</small><b>17,600원</b>
+										</p>
+									</a>
+									<em>
+										<a href="#a"><img src="images/pro-ico-01.png" alt="장바구니"></a>
+										<a href="#a"><img src="images/pro-ico-02.png" alt="찜하기"></a>
+									</em>
+								</li>
+								<li>
+									<a href="#a">
+										<span>
+											<img src="images/best-scent-02.png" alt="">
+										</span>
+										<p>
+											모던 세라믹 디퓨저 150ml
+											<small>25,900원</small><b>24,500</b>
+										</p>
+									</a>
+									<em>
+										<a href="#a"><img src="images/pro-ico-01.png" alt="장바구니"></a>
+										<a href="#a"><img src="images/pro-ico-02.png" alt="찜하기"></a>
+									</em>
+								</li>
+								<li>
+									<a href="#a">
+										<span>
+											<img src="images/best-scent-03.png" alt="">
+										</span>
+										<p>
+											크리스마스 디퓨저 무드등 
+											<small>23,990원</small><b>27,900원</b>
+										</p>
+									</a>
+									<em>
+										<a href="#a"><img src="images/pro-ico-01.png" alt="장바구니"></a>
+										<a href="#a"><img src="images/pro-ico-02.png" alt="찜하기"></a>
+									</em>
+								</li>
+								<li>
+									<a href="#a">
+										<span>
+											<img src="images/best-scent-04.png" alt="">
+										</span>
+										<p>
+											초롱꽃 (생일화디퓨저) 
+											<small>24,900원</small><b>35,900원</b>
+										</p>
+									</a>
+									<em>
+										<a href="#a"><img src="images/pro-ico-01.png" alt="장바구니"></a>
+										<a href="#a"><img src="images/pro-ico-02.png" alt="찜하기"></a>
+									</em>
+								</li>
+							</ul>
+							<ul class="best-items clear">
+								<li>
+									<a href="#a">
+										<span>
+											<img src="images/best-scent-05.png" alt="">
+										</span>
+										<p>
+											하바리움 디퓨저 200ml 
+											<small>11,500원</small><b>17,900원</b>
+										</p>
+									</a>
+									<em>
+										<a href="#a"><img src="images/pro-ico-01.png" alt="장바구니"></a>
+										<a href="#a"><img src="images/pro-ico-02.png" alt="찜하기"></a>
+									</em>
+								</li>
+								<li>
+									<a href="#a">
+										<span>
+											<img src="images/best-scent-06.png" alt="">
+										</span>
+										<p>
+											데일리콤마 메탈 디퓨저 
+											<small>22,900원</small><b>27,900원</b>
+										</p>
+									</a>
+									<em>
+										<a href="#a"><img src="images/pro-ico-01.png" alt="장바구니"></a>
+										<a href="#a"><img src="images/pro-ico-02.png" alt="찜하기"></a>
+									</em>
+								</li>
+								<li>
+									<a href="#a">
+										<span>
+											<img src="images/best-scent-07.png" alt="">
+										</span>
+										<p>
+											코코도르 화이트라벨 디퓨저 
+											<small>12,900원</small><b>16,900원</b>
+										</p>
+									</a>
+									<em>
+										<a href="#a"><img src="images/pro-ico-01.png" alt="장바구니"></a>
+										<a href="#a"><img src="images/pro-ico-02.png" alt="찜하기"></a>
+									</em>
+								</li>
+								<li>
+									<a href="#a">
+										<span>
+											<img src="images/best-scent-08.png" alt="">
+										</span>
+										<p>
+											인테리어 디퓨저 100ml 
+											<small>25,590원</small><b>23,000원</b>
+										</p>
+									</a>
+									<em>
+										<a href="#a"><img src="images/pro-ico-01.png" alt="장바구니"></a>
+										<a href="#a"><img src="images/pro-ico-02.png" alt="찜하기"></a>
+									</em>
+								</li>
+							</ul>
+						</div>
+						<div class="best-box best7">
+							<ul class="best-items clear">
+								<li>
+									<a href="#a">
+										<span>
+											<img src="images/best-home-01.png" alt="">
+										</span>
+										<p>
+											방울장식 
+											<small>11,590원</small><b>9,670원</b>
+										</p>
+									</a>
+									<em>
+										<a href="#a"><img src="images/pro-ico-01.png" alt="장바구니"></a>
+										<a href="#a"><img src="images/pro-ico-02.png" alt="찜하기"></a>
+									</em>
+								</li>
+								<li>
+									<a href="#a">
+										<span>
+											<img src="images/best-home-02.png" alt="">
+										</span>
+										<p>
+											산타와 친구들 가랜드 
+											<small>4,500원</small><b>3,500원</b>
+										</p>
+									</a>
+									<em>
+										<a href="#a"><img src="images/pro-ico-01.png" alt="장바구니"></a>
+										<a href="#a"><img src="images/pro-ico-02.png" alt="찜하기"></a>
+									</em>
+								</li>
+								<li>
+									<a href="#a">
+										<span>
+											<img src="images/best-home-03.png" alt="">
+										</span>
+										<p>
+											미니강아지 4p 
+											<small>15,000원</small><b>9,500원</b>
+										</p>
+									</a>
+									<em>
+										<a href="#a"><img src="images/pro-ico-01.png" alt="장바구니"></a>
+										<a href="#a"><img src="images/pro-ico-02.png" alt="찜하기"></a>
+									</em>
+								</li>
+								<li>
+									<a href="#a">
+										<span>
+											<img src="images/best-home-04.png" alt="">
+										</span>
+										<p>
+											우드스티커 set 
+											<small>10,800원</small><b>7,000원</b>
+										</p>
+									</a>
+									<em>
+										<a href="#a"><img src="images/pro-ico-01.png" alt="장바구니"></a>
+										<a href="#a"><img src="images/pro-ico-02.png" alt="찜하기"></a>
+									</em>
+								</li>
+							</ul>
+							<ul class="best-items clear">
+								<li>
+									<a href="#a">
+										<span>
+											<img src="images/best-home-05.png" alt="">
+										</span>
+										<p>
+											레터링 패브릭 포스터 
+											<small>8,900원</small><b>5,500</b>
+										</p>
+									</a>
+									<em>
+										<a href="#a"><img src="images/pro-ico-01.png" alt="장바구니"></a>
+										<a href="#a"><img src="images/pro-ico-02.png" alt="찜하기"></a>
+									</em>
+								</li>
+								<li>
+									<a href="#a">
+										<span>
+											<img src="images/best-home-06.png" alt="">
+										</span>
+										<p>
+											BOOL 우드 장식 
+											<small>5,500원</small><b>3,200원</b>
+										</p>
+									</a>
+									<em>
+										<a href="#a"><img src="images/pro-ico-01.png" alt="장바구니"></a>
+										<a href="#a"><img src="images/pro-ico-02.png" alt="찜하기"></a>
+									</em>
+								</li>
+								<li>
+									<a href="#a">
+										<span>
+											<img src="images/best-home-07.png" alt="">
+										</span>
+										<p>
+											레트로 티스푼 
+											<small>22,300원</small><b>18,700</b>
+										</p>
+									</a>
+									<em>
+										<a href="#a"><img src="images/pro-ico-01.png" alt="장바구니"></a>
+										<a href="#a"><img src="images/pro-ico-02.png" alt="찜하기"></a>
+									</em>
+								</li>
+								<li>
+									<a href="#a">
+										<span>
+											<img src="images/best-home-08.png" alt="">
+										</span>
+										<p>
+											꼬물이 미니어쳐 
+											<small>6,800원</small><b>4,800원</b>
+										</p>
+									</a>
+									<em>
+										<a href="#a"><img src="images/pro-ico-01.png" alt="장바구니"></a>
+										<a href="#a"><img src="images/pro-ico-02.png" alt="찜하기"></a>
+									</em>
+								</li>
+							</ul>
+						</div>
+						<div class="best-box best8">
+							<ul class="best-items clear">
+								<li>
+									<a href="#a">
+										<span>
+											<img src="images/best-xmas-01.png" alt="">
+										</span>
+										<p>
+											인테리어 데코 전구 
+											<small>14,500원</small><b>7,200원</b>
+										</p>
+									</a>
+									<em>
+										<a href="#a"><img src="images/pro-ico-01.png" alt="장바구니"></a>
+										<a href="#a"><img src="images/pro-ico-02.png" alt="찜하기"></a>
+									</em>
+								</li>
+								<li>
+									<a href="#a">
+										<span>
+											<img src="images/best-xmas-02.png" alt="">
+										</span>
+										<p>
+											뜨개모자 큰 눈사람 
+											<small>30,100원</small><b>24,080원</b>
+										</p>
+									</a>
+									<em>
+										<a href="#a"><img src="images/pro-ico-01.png" alt="장바구니"></a>
+										<a href="#a"><img src="images/pro-ico-02.png" alt="찜하기"></a>
+									</em>
+								</li>
+								<li>
+									<a href="#a">
+										<span>
+											<img src="images/best-xmas-03.png" alt="">
+										</span>
+										<p>
+											조명무드등 
+											<small>25,900원</small><b>17,500원</b>
+										</p>
+									</a>
+									<em>
+										<a href="#a"><img src="images/pro-ico-01.png" alt="장바구니"></a>
+										<a href="#a"><img src="images/pro-ico-02.png" alt="찜하기"></a>
+									</em>
+								</li>
+								<li>
+									<a href="#a">
+										<span>
+											<img src="images/best-xmas-04.png" alt="">
+										</span>
+										<p>
+											뜨개모자 눈사람 3P 
+											<small>22,000원</small><b>18,700원</b>
+										</p>
+									</a>
+									<em>
+										<a href="#a"><img src="images/pro-ico-01.png" alt="장바구니"></a>
+										<a href="#a"><img src="images/pro-ico-02.png" alt="찜하기"></a>
+									</em>
+								</li>
+							</ul>
+							<ul class="best-items clear">
+								<li>
+									<a href="#a">
+										<span>
+											<img src="images/best-xmas-05.png" alt="">
+										</span>
+										<p>
+											크리스마스 장식 인형 소품 
+											<small>11,100원</small><b>8,320원</b>
+										</p>
+									</a>
+									<em>
+										<a href="#a"><img src="images/pro-ico-01.png" alt="장바구니"></a>
+										<a href="#a"><img src="images/pro-ico-02.png" alt="찜하기"></a>
+									</em>
+								</li>
+								<li>
+									<a href="#a">
+										<span>
+											<img src="images/best-xmas-06.png" alt="">
+										</span>
+										<p>
+											크리스마스 LED 오르골 
+											<small>31,000원</small><b>26,350원</b>
+										</p>
+									</a>
+									<em>
+										<a href="#a"><img src="images/pro-ico-01.png" alt="장바구니"></a>
+										<a href="#a"><img src="images/pro-ico-02.png" alt="찜하기"></a>
+									</em>
+								</li>
+								<li>
+									<a href="#a">
+										<span>
+											<img src="images/best-xmas-07.png" alt="">
+										</span>
+										<p>
+											핀란드 바이크 산타 미니워터볼 
+											<small>17,000원</small><b>14,450원</b>
+										</p>
+									</a>
+									<em>
+										<a href="#a"><img src="images/pro-ico-01.png" alt="장바구니"></a>
+										<a href="#a"><img src="images/pro-ico-02.png" alt="찜하기"></a>
+									</em>
+								</li>
+								<li>
+									<a href="#a">
+										<span>
+											<img src="images/best-xmas-08.png" alt="">
+										</span>
+										<p>
+											양모파스텔볼 
+											<small>15,800원</small><b>9,880원</b>
+										</p>
+									</a>
+									<em>
+										<a href="#a"><img src="images/pro-ico-01.png" alt="장바구니"></a>
+										<a href="#a"><img src="images/pro-ico-02.png" alt="찜하기"></a>
+									</em>
+								</li>
+							</ul>
+						</div>
+          </div>
+        </div>
+      </section>
+<!-- //best-item -->
+      <section class="mini-banner">
+        <a href="#a"></a>
+      </section>
+<!-- //mini-banner -->
+      <div class="recomm">
+        <h2 class="title">MD’S PICK</h2>
+        <div class="recomm-inner">
+          <ul class="recomm-items clear">
+            <li>
+              <a href="#a">
+                <img src="images/recom-01.png" alt="">
+                <em class="cart icon02">
+                <button><img src="images/pro-ico-01.png" alt="장바구니"></button>
+                <button><img src="images/pro-ico-02.png" alt="찜하기"></button>
+              </em>
+              </a>
+              <div>
+                <a href="#a">
+                  cat 벽선반 
+                </a>
+                <p>158,000원<small>180,000원</small></p>
+              </div>
+            </li>
+            <li>
+              <a href="#a">
+                <img src="images/recom-02.png" alt="">
+                <em class="cart icon02">
+                <button><img src="images/pro-ico-01.png" alt="장바구니"></button>
+                <button><img src="images/pro-ico-02.png" alt="찜하기"></button>
+              </em>
+              </a>
+              <div>
+                <a href="#a">
+                  핸드메이드 니트 푸프 스툴 
+                </a>
+                <p>35,900원<small>49,000원</small></p>
+              </div>
+            </li>
+            <li>
+              <a href="#a">
+                <img src="images/recom-03.png" alt="">
+                <em class="cart icon02">
+                <button><img src="images/pro-ico-01.png" alt="장바구니"></button>
+                <button><img src="images/pro-ico-02.png" alt="찜하기"></button>
+              </em>
+              </a>
+              <div>
+                <a href="#a">
+                  크리스마스 앤틱 랜턴 LED 워터볼
+                </a>
+                <p>38,250원<small>45,000원</small></p>
+              </div>
+            </li>
+          </ul>
+          <ul class="recomm-items clear">
+            <li>
+              <a href="#a">
+                <img src="images/recom-04.png" alt="">
+                <em class="cart icon02">
+                <button><img src="images/pro-ico-01.png" alt="장바구니"></button>
+                <button><img src="images/pro-ico-02.png" alt="찜하기"></button>
+              </em>
+              </a>
+              <div>
+                <a href="#a">
+                  LED앵두전구 
+                </a>
+                <p>2,560원<small>3,200원</small></p>
+              </div>
+            </li>
+            <li>
+              <a href="#a">
+                <img src="images/recom-05.png" alt="">
+                <em class="cart icon02">
+                <button><img src="images/pro-ico-01.png" alt="장바구니"></button>
+                <button><img src="images/pro-ico-02.png" alt="찜하기"></button>
+              </em>
+              </a>
+              <div>
+                <a href="#a">
+                  9등 인테리어조명
+                </a>
+                <p>199,000원<small>280,000원</small></p>
+              </div>
+            </li>
+            <li>
+              <a href="#a">
+                <img src="images/recom-06.png" alt="">
+                <em class="cart icon02">
+                <button><img src="images/pro-ico-01.png" alt="장바구니"></button>
+                <button><img src="images/pro-ico-02.png" alt="찜하기"></button>
+              </em>
+              </a>
+              <div>
+                <a href="#a">
+                  6등 인테리어조명 
+                </a>
+                <p>167,700원<small>195,000원</small></p>
+              </div>
+            </li>
+          </ul>
+          <ul class="recomm-items clear">
+            <li>
+              <a href="#a">
+                <img src="images/recom-07.png" alt="">
+                <em class="cart icon02">
+                <button><img src="images/pro-ico-01.png" alt="장바구니"></button>
+                <button><img src="images/pro-ico-02.png" alt="찜하기"></button>
+              </em>
+              </a>
+              <div>
+                <a href="#a">
+                  수납선반장 - 우드 
+                </a>
+                <p>74,800원<small>98,000원</small></p>
+              </div>
+            </li>
+            <li>
+              <a href="#a">
+                <img src="images/recom-08.png" alt="">
+                <em class="cart icon02">
+                <button><img src="images/pro-ico-01.png" alt="장바구니"></button>
+                <button><img src="images/pro-ico-02.png" alt="찜하기"></button>
+              </em>
+              </a>
+              <div>
+                <a href="#a">
+                  보조 수납장
+                </a>
+                <p>80,600원<small>165,000원</small></p>
+              </div>
+            </li>
+            <li>
+              <a href="#a">
+                <img src="images/recom-09.png" alt="">
+                <em class="cart icon02">
+                <button><img src="images/pro-ico-01.png" alt="장바구니"></button>
+                <button><img src="images/pro-ico-02.png" alt="찜하기"></button>
+              </em>
+              </a>
+              <div>
+                <a href="#a">
+                  부착식육각거울 
+                </a>
+                <p>4,900원<small>8,000원</small></p>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+<!-- //recommend-banner -->
+      <section class="fix-banner">
+        <div>
+          HOME DECORATION
+          <p>나만의 소품으로 나만의 공간을 꾸며보세요.</p>
+        </div>
+      </section>
+<!-- //bg-fixed-banner -->
+      <section class="insta">
+        <h2 class="title">INSTAGRAM</h2>
+        <div class="insta-inner clear">
+          <div>
+            <ul class="insta-items clear">
+              <li>
+                <a href="#a"><img src="images/photo-01.png" alt=""></a>
+              </li>
+              <li>
+                <a href="#a"><img src="images/photo-02.png" alt=""></a>
+              </li>
+              <li>
+                <a href="#a"><img src="images/photo-03.png" alt=""></a>
+              </li>
+              <li>
+                <a href="#a"><img src="images/photo-04.png" alt=""></a>
+              </li>
+            </ul>
+            <ul class="insta-items clear">
+              <li>
+                <a href="#a"><img src="images/photo-05.png" alt=""></a>
+              </li>
+              <li>
+                <a href="#a"><img src="images/photo-06.png" alt=""></a>
+              </li>
+              <li>
+                <a href="#a"><img src="images/photo-07.png" alt=""></a>
+              </li>
+              <li>
+                <a href="#a"><img src="images/photo-08.png" alt=""></a>
+              </li>
+            </ul>
+          </div>
+          <div class="insta-big">
+            <a href="#a"><img src="images/photo-09.png" alt=""></a>
+          </div>
+        </div>
+      </section>
+<!-- //insta-gallery -->
+    </main>
+    <footer>
+      <div class="footer-top">
+        <div class="footer-inner clear">
+          <ul>
+            <li><a href="#a">회사소개</a></li>
+            <li><a href="#a">이용약관</a></li>
+            <li><a href="#a">개인정보취급방침</a></li>
+            <li><a href="#a">이용안내</a></li>
+          </ul>
+          <div class="follow">
+            <span>FOLLOW</span>
+            <a href="#a">인스타그램</a>
+            <a href="#a">트위터</a>
+            <a href="#a">페이스북</a>
+          </div>
+        </div> 
+      </div>
+      <div class="footer-bottom">
+        <div class="footer-inner">
+          <ul class="shop-info">
+            <li>
+              CALL CENTER 
+              <p>
+                <big>0000-0000</big>
+                <small>평일 10:00-17:00<br>점심 12:00-13:00</small>
+                주말/공휴일은 게시판을 이용해 주세요.
+              </p>
+            </li>
+            <li>
+              BANK INFO 
+              <p>
+                우리 0000-000-000000<br>
+                농협 000-000-00000-00<br>
+                신한 000-000-000000<br>
+                <span><em>예금주</em>데코샵</span>
+              </p>
+            </li>
+            <li class="company">
+              COMPANY INFO
+              <div>
+                <p>
+                  <em>상호</em>데코샵<br>
+                  <em>대표</em>홍길동<br>
+                  <em>대표전화</em>00-000-0000<br>
+                  <em>팩스번호</em>00-000-0000
+                </p>
+                <p>
+                  <em>사업자등록번호</em>000-00-00000<br>
+                  <em>사업장 소재지</em>00시 00로00번길 00<br>
+                  <em>물류(반품/교환) 주소지</em>00시 00로00번길 00
+                </p>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="copyright">
+        <div class="footer-inner">
+          Copyright © 2019 DECODECO. All rights reserved.
+        </div>
+      </div>
+    </footer>
+<!-- //footer -->
+  </div>
+  <button class="quick-btn"></button>
+  <div class="quick-bar">
+    <div class="quick-list">
+			<div class="quick-list00">
+        <a href="#a">로그인</a>
+        <a href="#a">회원가입</a>
+      </div>
+      <div class="quick-list01">
+        <a href="#a">CART</a>
+        <a href="#a">WISH LIST</a>
+      </div>
+      <div class="quick-list02">
+        <a href="#a">공지사항</a>
+        <a href="#a">문의하기</a>
+        <a href="#a">이벤트</a>
+        <a href="#a">상품후기</a>
+        <a href="#a">고객센터</a>
+        <a href="#a">즐겨찾기</a>
+        <a href="#a">찜리스트</a>
+        <a href="#a">FAQ</a>
+        <a href="#a">BEST20</a>
+        <a href="#a">배송조회</a>
+      </div>
+    </div>
+    <div class="quick-call">
+      <p>
+        <b>CALL CENTER</b>
+        <big>0000-0000</big>
+        <small>
+          평일 10:00-17:00<br>
+          점심 12:00-13:00<br>
+          토/일/공휴일 OFF
+        </small>
+      </p>
+      <p>
+        <b>BANK INFO</b>
+        우리 0000-000-000000
+        농협 000-000-00000-00
+        신한 000-000-000000
+        <span><em>예금주</em>데코샵</span>
+      </p>
+    </div>
+  </div>
+<!-- //quick-bar -->
+  <div class="top">
+    <a class="gototop" href="#a"><i class="fa fa-angle-up"></i></a>
+    <a class="gotodown"  href="#a"><i class="fa fa-angle-down"></i></a>
+  </div>
+<!-- //up&down -->
+
+  
+  <script>
+		$('documnet').ready(function(){
+		
+			//megamenu & quickbar & topbtn & cart
+			$('.total').click(function(){
+				$('.mega-menu').slideToggle(300);
+			});
+			$('.quick-btn').click(function(){
+				$('.quick-btn, .quick-bar, .top').toggleClass('active');
+			});
+			$('.tb-close').click(function(){
+				$('.top-banner').addClass('active');
+			});
+			$('.cart button').click(function(){
+				$(this).toggleClass('active');
+			});
+
+			//header scrolling
+      $(window).on("scroll", function() {
+        if($(window).scrollTop() > 250) {
+            $('nav').addClass('active');
+        } else {
+           $('nav').removeClass('active');
+        }
+			});
+			
+			//top, bottom slide btn
+			$('.gototop').click(function(){
+				$('html, body').stop().animate({scrollTop:0}, 600);
+			});
+			$('.gotodown').click(function(){
+				var foot = $('.copyright').offset().top;
+				$('html, body').stop().animate({scrollTop:foot}, 600);
+			});
+    
+		});
+    
+  </script>
+  
+</body>
+</html>
